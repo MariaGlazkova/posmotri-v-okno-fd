@@ -111,9 +111,9 @@ ol {
 
 .search-form__label {
   display: flex;
+  align-items: center;
   gap: 5px;
   width: fit-content;
-  align-items: center;
   cursor: pointer;
 }
 
@@ -205,11 +205,11 @@ ol {
   height: 34px;
   border: 1px solid #FFF;
   color: #FFF;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: bold;
   font-size: 18px;
   font-style: normal;
   background-color: transparent;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-weight: bold;
 }
 
 .button:hover {
@@ -237,9 +237,9 @@ ol {
   grid-area: details;
   justify-content: flex-end;
   gap: 26px;
-  height: 100%;
   width: 100%;
-  max-width: 399px;;
+  max-width: 399px;
+  height: 100%;;
 }
 
 .title {
@@ -248,7 +248,7 @@ ol {
   font-weight: 700;
   font-size: 75px;
   font-style: normal;
-  line-height: 0,94;
+  line-height: 0.94;
   text-transform: uppercase;
 }
 
@@ -270,9 +270,9 @@ ol {
 }
 
 .content__list-item {
+  width: 100%;
   padding-right: 3px;
   padding-left: 3px;
-  width: 100%;
 }
 
 .content__card-link {
